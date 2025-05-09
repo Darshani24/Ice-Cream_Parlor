@@ -125,6 +125,43 @@ function Index() {
  </Swiper>
 </section>
 
+<section>
+
+  <div className='flex mt-20 gap-[25px] flex-wrap  text-center '>
+    
+    <div className='selstyle w-[750px]  h-[550px]  rounded-[5px] ' >
+     <div className='bg-yellow-200 pt-3.5'>
+     <small>Save 25% Off</small>
+      <h3 className=''>2025</h3>
+      <p className='mb-20'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
+     </div>
+      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
+    </div>
+
+
+
+    <div className='selstyle w-[750px]  h-[550px] rounded-[5px] '>
+    <div className='bg-green-300 pt-3.5'>
+    <small className=''>Save 25% Off</small>
+      <h3>2025</h3>
+      <p className='mb-20'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
+    </div>
+      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
+    </div>
+
+
+    <div className='selstyle w-[750px]  h-[550px]  rounded-[5px]'>
+    <div className='bg-red-500 pt-3.5'>
+    <small className='text-white font-bold text-2xl'>Best Selling!</small>
+      <h3>2025</h3>
+      <p className='mb-20'>Our most-loved flavors rich, creamy, and simply unforgettable.</p>
+    </div>
+      <button className='min-btn'>Try Now<i className='ri-arrow-right-line'></i></button>
+    </div>
+  </div>
+
+</section>
+
 
 
     </>

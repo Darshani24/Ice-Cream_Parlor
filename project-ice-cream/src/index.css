@@ -38,4 +38,6 @@
 .card:hover{
   @apply flex flex-col ;
 }
-
+.min-btn{
+  @apply bg-[#A0E7D0] hover:bg-[#8dd4bf] text-[#1B0F03] px-2 py-2 text-xl md:text-lg rounded-[6px] md:px-3 md:py-2 ;
+}
