@@ -38,11 +38,18 @@ function Index() {
   <h3 className='category-section'>Shop Buy Now</h3>
 
   <Swiper 
-  className='w-full px-2 '
-  slidesPerView={5}
-  spaceBetween={0}
-  
->
+    className='w-full px-2 '
+    slidesPerView={5}
+    spaceBetween={20}
+    autoplay={{ delay: 1500 }}
+    loop={true}
+    modules={[Autoplay]}
+    breakpoints={{
+      0: { slidesPerView: 1.5 },
+      768: { slidesPerView: 2.5 }, 
+      1024: { slidesPerView: 5.5 }, 
+    }}
+    >
    <SwiperSlide>
        <div className='w-full card group'>
            <img src={SlideImage1} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
