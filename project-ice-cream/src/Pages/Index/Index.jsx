@@ -34,9 +34,81 @@ function Index() {
 </div>
 </div>
 <section id='category'>
+
   <h3 className='category-section'>Shop Buy Now</h3>
 
+  <Swiper 
+  className='w-full px-2 '
+  slidesPerView={5}
+  spaceBetween={0}
   
+>
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage1} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text'>Strawberry Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>2 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage2} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text'>Popsical Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>12 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage3} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text'>Chocolate Fruits Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>3 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage4} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text'>Strawberry Ice Corn</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>2 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage5} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text '>Honey with Vanila Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
+       </div>
+   </SwiperSlide>
+
+   
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage8} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text'>Mint Chocolate Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>2 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage6} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text '>Orange Ice-Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
+       </div>
+   </SwiperSlide>
+
+   <SwiperSlide>
+       <div className='w-full card group'>
+           <img src={SlideImage7} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
+             <span className='slide-text '>Rum & Raising Ice Cream</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
+       </div>
+   </SwiperSlide>
+
+ </Swiper>
 </section>
 
 

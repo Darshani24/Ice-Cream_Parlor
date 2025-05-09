@@ -22,3 +22,20 @@
 .show-menu {
   @apply left-0;
 }
+.title{
+  font-family: Dancing Script;
+}
+.subtitle{
+  font-family: kalnia;
+}
+.category-section{
+  font-family: kalnia;
+  @apply text-center text-3xl w-full font-semibold py-12;
+}
+.slide-text{
+  @apply text-center w-full text-base font-semibold ;
+}
+.card:hover{
+  @apply flex flex-col ;
+}
+
