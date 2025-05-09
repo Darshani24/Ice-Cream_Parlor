@@ -129,7 +129,7 @@ function Index() {
 
   <div className='flex mt-20 gap-[25px] flex-wrap  text-center '>
     
-    <div className='selstyle w-[750px]  h-[550px]  rounded-[5px] ' >
+    <div className='selstyle w-[750px]  h-[550px] bg-[url(assets/pnk2.jpg)] bg-cover rounded-[5px] ' >
      <div className='bg-yellow-200 pt-3.5'>
      <small>Save 25% Off</small>
       <h3 className=''>2025</h3>
@@ -140,7 +140,7 @@ function Index() {
 
 
 
-    <div className='selstyle w-[750px]  h-[550px] rounded-[5px] '>
+    <div className='selstyle w-[750px]  h-[550px] bg-[url(assets/grn2.jpg)] bg-cover rounded-[5px] '>
     <div className='bg-green-300 pt-3.5'>
     <small className=''>Save 25% Off</small>
       <h3>2025</h3>
@@ -150,7 +150,7 @@ function Index() {
     </div>
 
 
-    <div className='selstyle w-[750px]  h-[550px]  rounded-[5px]'>
+    <div className='selstyle w-[750px]  h-[550px] bg-[url(assets/pnk1.jpg)] bg-cover rounded-[5px]'>
     <div className='bg-red-500 pt-3.5'>
     <small className='text-white font-bold text-2xl'>Best Selling!</small>
       <h3>2025</h3>
