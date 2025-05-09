@@ -20,8 +20,8 @@ function Nav() {
       <div
         ref={menu}
         className='Nav-Link absolute top-[100%] left-[-100%]
-        md:static  lg:flex  gap-y-4 lg:gap-x-10 items-center lg:flex-row flex-col
-         bg-red-50 lg:bg-transparent lg:w-auto w-[200px] p-4 md:p-0 '
+        md:static  md:flex  gap-y-4 md:gap-x-10 items-center md:flex-row flex-col
+         bg-red-50 lg:bg-transparent md:w-auto w-[200px] p-4 md:p-0 '
       >
         <Header name="Home" url="#Home" />
         <Header name="Category" url="#Category" />
