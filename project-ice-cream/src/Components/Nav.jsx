@@ -13,7 +13,7 @@ function Nav() {
     <div className='flex items-center justify-between px-6 py-4 relative'>
       
       <div className='mr-4'>
-        <span className='text-xl text-red-600 font-bold cursor-pointer'>ICE-PARLOR</span>
+        <span className='text-xl text-red-700 font-bold cursor-pointer'>ICEPARLOR</span>
       </div>
 
      
