@@ -162,6 +162,14 @@ function Index() {
 
 </section>
 
+<section id='category'>
+
+  <h3 className='category-section'>Shop Buy Now</h3>
+
+  
+</section>
+
+
 
 
     </>
