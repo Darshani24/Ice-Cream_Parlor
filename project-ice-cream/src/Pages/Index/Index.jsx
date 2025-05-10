@@ -45,17 +45,7 @@ function Index() {
   <h3 className='category-section'>Shop Buy Now</h3>
 
   <Swiper 
-    className='w-full px-2 '
-    slidesPerView={5}
-    spaceBetween={20}
-    autoplay={{ delay: 1500 }}
-    loop={true}
-    modules={[Autoplay]}
-    breakpoints={{
-      0: { slidesPerView: 1.5 },
-      768: { slidesPerView: 2.5 }, 
-      1024: { slidesPerView: 5.5 }, 
-    }}
+   
     >
    <SwiperSlide>
        <div className='w-full card group'>
@@ -65,109 +55,16 @@ function Index() {
        </div>
    </SwiperSlide>
 
-   <SwiperSlide>
+    <SwiperSlide>
        <div className='w-full card group'>
            <img src={SlideImage2} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
              <span className='slide-text'>Popsical Ice Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>12 Products</span>
+             <span className='text-center w-full text-base hidden group-hover:inline-block text-yellow-500'>12 Products</span>
        </div>
    </SwiperSlide>
-
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage3} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text'>Chocolate Fruits Ice Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>3 Products</span>
-       </div>
-   </SwiperSlide>
-
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage4} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text'>Strawberry Ice Corn</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>2 Products</span>
-       </div>
-   </SwiperSlide>
-
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage5} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text '>Honey with Vanila Ice Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
-       </div>
-   </SwiperSlide>
-
-   
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage8} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text'>Mint Chocolate Ice Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>2 Products</span>
-       </div>
-   </SwiperSlide>
-
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage6} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text '>Orange Ice-Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
-       </div>
-   </SwiperSlide>
-
-   <SwiperSlide>
-       <div className='w-full card group'>
-           <img src={SlideImage7} alt="Slide-Image 01"  className='w-[200px] h-[200px] rounded-full'/>
-             <span className='slide-text '>Rum & Raising Ice Cream</span>
-             <span className='text-center w-full text-base hidden group-hover:inline-block text-red-700'>5 Products</span>
-       </div>
-   </SwiperSlide>
-
  </Swiper>
 </section>
 
-<section>
-
-  <div className='flex mt-20 gap-[25px] flex-wrap md:flex-nowrap text-center md:text-start  '>
-    
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/pnk2.jpg)] bg-cover rounded-[5px] ' >
-     <div className='bg-yellow-200 pt-3.5'>
-     <small>Save 25% Off</small>
-      <h3 className=''>2025</h3>
-      <p className='mb-20'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
-     </div>
-      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
-    </div>
-
-
-
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/grn2.jpg)] bg-cover rounded-[5px] '>
-    <div className='bg-green-300 pt-3.5'>
-    <small className=''>Save 25% Off</small>
-      <h3>2025</h3>
-      <p className='mb-20'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
-    </div>
-      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
-    </div>
-
-
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/pnk1.jpg)] bg-cover rounded-[5px]'>
-    <div className='bg-red-500 pt-3.5'>
-    <small className='text-white font-bold text-2xl'>Best Selling!</small>
-      <h3>2025</h3>
-      <p className='mb-20'>Our most-loved flavors rich, creamy, and simply unforgettable.</p>
-    </div>
-      <button className='min-btn'>Try Now<i className='ri-arrow-right-line'></i></button>
-    </div>
-  </div>
-
-</section>
-
-<section id='category'>
-
-  <h3 className='category-section'>Shop Buy Now</h3>
-
-  
-</section>
 
 
 
