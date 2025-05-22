@@ -6,6 +6,7 @@ import Hero from '../../Components/Hero';
 import Category from '../../Components/Category';
 import Banner from '../../Components/Banner';
 import Popular from '../../Components/Popular';
+import Shop from '../../Components/Shop';
 
 
 
@@ -17,11 +18,7 @@ function Index() {
    <Category/>
    <Banner/>
    <Popular/>
-
-
-
-
-
+   <Shop/>
 
     </>
    
