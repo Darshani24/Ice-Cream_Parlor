@@ -5,20 +5,25 @@ import 'swiper/css/pagination';
 
 const Clientprop = (props) => {
   return (
-    <div className='w-full card group p-4 bg-white rounded-[6px]'>
-            <div className='w-full h-[300px] md:h-[400px] object-cover '>
-              <img src={props.image} alt="" className='w-[75px]  rounded-full mb-4 ' />   
-                <div className=' flex flex-col items-center'>
-              <div className='text-red-600'>
+    <div className='w-[250px]  p-6 bg-white rounded-[6px]'>
+            <div className=' h-[190px] '>
+            
+               
+                <div className=' flex flex-row items-start'>
+                   <img src={props.image} alt="" className='w-[55px]  rounded-full ' />
+             <div className='ml-3'>
+              <span className='text-sm text-end'>{props.Name} </span> 
+               <div className='text-red-600 h-[10px] w-[10px]'>
                 <i className='ri-star-fill'></i>
                 <i className='ri-star-fill'></i>
                 <i className='ri-star-fill'></i>
                 <i className='ri-star-line'></i>
-                <i className='ri-star-line'></i>
+                <i className='ri-star-line '></i>
               </div>
-              <span className='text-sm text-center'>{props.Name} </span>
-              <p className='pt-2 md:pt-0  text-start'>{props.Review}</p>
-            </div>   
+                
+             </div>
+             </div>
+            <p className='pt-3.5 text-start text-[10px]'>{props.Review}</p>  
             </div>
             
           </div>

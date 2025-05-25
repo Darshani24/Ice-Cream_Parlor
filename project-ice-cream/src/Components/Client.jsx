@@ -12,13 +12,13 @@ import Clientprop from './Clientprop';
 
 const Client = () => {
   return (
-     <div className='bg-clientbg py-10 p-[30px] md:p-[45px] lg:p-[60px]'>
+     <div className=' bg-linear-to-br from-[#fcfcfc] to-[#1c4e41] via-[#bfe0c5] py-10 p-[60px] md:p-[75px] lg:p-[90px]'>
      <h3 className='category-section mt-2'>Happy Clients!</h3>
 
   <Swiper
     className='w-full '
     slidesPerView={3}
-    spaceBetween={30}
+    spaceBetween={35}
     autoplay={{ delay: 3500 }}
     loop={true}
     modules={[Autoplay]}
