@@ -8,6 +8,7 @@ import Banner from '../../Components/Banner';
 import Popular from '../../Components/Popular';
 import Shop from '../../Components/Shop';
 import Achieve from '../../Components/Achieve';
+import Client from '../../Components/Client';
 
 
 
@@ -21,6 +22,7 @@ function Index() {
    <Popular/>
    <Shop/>
    <Achieve/>
+   <Client/>
 
     </>
    
