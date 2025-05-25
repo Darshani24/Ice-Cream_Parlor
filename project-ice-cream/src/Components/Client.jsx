@@ -18,14 +18,14 @@ const Client = () => {
   <Swiper
     className='w-full '
     slidesPerView={3}
-    spaceBetween={16}
-    autoplay={{ delay: 1500 }}
+    spaceBetween={30}
+    autoplay={{ delay: 3500 }}
     loop={true}
     modules={[Autoplay]}
     breakpoints={{
-      640: { slidesPerView: 1.8 },
-      768: { slidesPerView: 2.5 },
-      1024: { slidesPerView: 3.5 },
+      0: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
     }}
   >
     <SwiperSlide>
