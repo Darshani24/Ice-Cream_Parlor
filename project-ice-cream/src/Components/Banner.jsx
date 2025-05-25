@@ -1,40 +1,45 @@
-import React from 'react'
+import React from 'react';
+
+// Import images properly for Vite
+import Pink2 from '../assets/pnk2.jpg';
+import Pink1 from '../assets/pnk1.jpg';
 
 const Banner = () => {
+  const banners = [
+    {
+      bg: Pink2,
+      title: 'Save 25% Off',
+      subtitle: '2025',
+      description: 'Fresh, creamy, and full of flavor — a scoop of pure joy in every bite.',
+      button: 'Flavor Pick'
+    },
+    {
+      bg: Pink1,
+      title: 'Best Selling!',
+      subtitle: '2025',
+      description: 'Our most-loved flavors — rich, creamy, and simply unforgettable.',
+      button: 'Try Now'
+    }
+  ];
+
   return (
-    <div className='bg-categorybg flex pt-2 gap-[25px] flex-wrap md:flex-nowrap text-center md:text-start p-[30px] md:p-[45px] lg:p-[60px]  '>
-    
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/pnk2.jpg)] bg-cover rounded-[5px] p-[100px] text-center ' >
-     <div className=''>
-     <small className='text-black font-bold text-3xl'>Save 25% Off</small>
-      <h3 className=''>2025</h3>
-      <p className='mb-20 text-black'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
-     </div>
-      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
+    <div className="bg-categorybg flex flex-wrap md:flex-nowrap gap-6 justify-center p-6 md:p-10 lg:p-14 text-center md:text-left">
+      {banners.map((item, index) => (
+        <div
+          key={index}
+          className="selstyle w-full sm:w-[175px] md:w-[350px] h-[550px] bg-cover bg-center rounded-[5px] p-[50px] flex flex-col justify-between items-center text-black"
+          style={{ backgroundImage: `url(${item.bg})` }}
+        >
+          <div>
+            <small className="font-bold text-3xl">{item.title}</small>
+            <h3 className="text-xl my-2">{item.subtitle}</h3>
+            <p className="mb-20">{item.description}</p>
+          </div>
+          <button className="min-btn">{item.button} <i className="ri-arrow-right-line" /></button>
+        </div>
+      ))}
     </div>
+  );
+};
 
-
-
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/grn2.jpg)] bg-cover rounded-[5px] p-[100px] text-center   '>
-    <div className=''>
-    <small className='text-black font-bold text-3xl'>Save 25% Off!!</small>
-      <h3>2025</h3>
-      <p className='mb-20 text-black'>Fresh, creamy, and full of flavor a scoop of pure joy in every bite</p>
-    </div>
-      <button className='min-btn'>Flavor Pick<i className='ri-arrow-right-line'></i></button>
-    </div>
-
-
-    <div className='selstyle w-[750px] sm:w-[175px] md:w-[650px] h-[550px] bg-[url(assets/pnk1.jpg)] bg-cover rounded-[5px] p-[100px] text-center '>
-    <div className=''>
-    <small className='text-black font-bold text-3xl'>Best Selling!</small>
-      <h3>2025</h3>
-      <p className='mb-20 text-black'>Our most-loved flavors rich, creamy, and simply unforgettable.</p>
-    </div>
-      <button className='min-btn'>Try Now<i className='ri-arrow-right-line'></i></button>
-    </div>
-  </div>
-  )
-}
-
-export default Banner
+export default Banner;

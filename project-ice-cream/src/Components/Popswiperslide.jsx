@@ -12,7 +12,7 @@ function Popswiperslide(props) {
          <SwiperSlide>
      <div className='relative flex flex-col gap-[10px] card '>
             <div className='w-full '>
-              <img src={props.image} alt="Sell-Image 01"  className='responsive-pop'/>
+              <img src={props.image} alt="Sell-Image 01"  className='w-full h-[300px] object-cover rounded-[10px]'/>
               <div className='absolute top-5 flex flex-col  gap-2 right-5 hidden icons-card'>
                 <i className='ri-heart-line icon-card'></i>
                 <i className='ri-shuffle-line icon-card'></i>

@@ -16,7 +16,7 @@ import Footer from '../../Components/Footer';
 
 function Index() {
   return (
-    <>
+    <div>
    <Hero/>
    <Category/>
    <Banner/>
@@ -26,7 +26,7 @@ function Index() {
    <Client/>
    <Footer/>
 
-    </>
+    </div>
    
   )
 }

@@ -4,7 +4,7 @@ const ShopProp = (props) => {
   return (
     <div> <div className='w-full flex flex-col gap-[10px] relative card'>
           <div className=' w-full'>
-            <img src={props.image} alt="Slide-image" className='responsive-pop' />
+            <img src={props.image} alt="Slide-image" className='w-full h-[350px] object-cover rounded-[10px] ' />
             <div className='absolute top-5 flex flex-col  gap-2 right-5 hidden icons-card'>
               <i className='ri-heart-line icon-card'></i>
               <i className='ri-shuffle-line icon-card'></i>
