@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 function Popswiperslide(props) {
   return (
     <div>
+        
          <SwiperSlide>
      <div className='relative flex flex-col gap-[10px] card '>
             <div className='w-full '>
@@ -32,6 +33,7 @@ function Popswiperslide(props) {
              </div>
           </div>
   </SwiperSlide>
+   
    
     </div>
   )

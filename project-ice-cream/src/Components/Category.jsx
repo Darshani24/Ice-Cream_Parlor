@@ -20,17 +20,17 @@ const Category = () => {
   return (
    <div className='bg-categorybg'> <h3 className='category-section'>Shop Buy Now</h3>
 
-  <Swiper 
+   <Swiper 
   className='w-full px-2 '
   slidesPerView={5}
-  spaceBetween={0}
-  autoplay={{ delay: 1500 }}
+  spaceBetween={30}
+  autoplay={{ delay: 3500 }}
   loop={true}
   modules={[Autoplay]}
   breakpoints={{
-    0: { slidesPerView: 1.5 },
-    768: { slidesPerView: 2.5 }, 
-    1024: { slidesPerView: 4.5 }, 
+    0: { slidesPerView: 1 },
+    768: { slidesPerView: 2 }, 
+    1024: { slidesPerView: 3 }, 
   }}
 >
    <SwiperSlide>
