@@ -9,6 +9,7 @@ import Popular from '../../Components/Popular';
 import Shop from '../../Components/Shop';
 import Achieve from '../../Components/Achieve';
 import Client from '../../Components/Client';
+import Footer from '../../Components/Footer';
 
 
 
@@ -23,6 +24,7 @@ function Index() {
    <Shop/>
    <Achieve/>
    <Client/>
+   <Footer/>
 
     </>
    
