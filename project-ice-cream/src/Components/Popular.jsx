@@ -26,14 +26,14 @@ const Popular = () => {
      <Swiper 
       className='w-full px-2 '
       slidesPerView={5}
-      spaceBetween={20}
-      autoplay={{ delay: 1500 }}
+      spaceBetween={30}
+      autoplay={{ delay: 3500 }}
       loop={true}
       modules={[Autoplay]}
       breakpoints={{
-        0: { slidesPerView: 1.5 },
-        768: { slidesPerView: 2.5 }, 
-        1024: { slidesPerView: 5.5 }, 
+        0: { slidesPerView: 1 },
+        768: { slidesPerView: 2 }, 
+        1024: { slidesPerView: 3 }, 
       }}
     >
       
