@@ -18,18 +18,18 @@ import Propcategory from './Propcategory';
 
 const Category = () => {
   return (
-   <div className='bg-categorybg'> <h3 className='category-section'>Shop Buy Now</h3>
+   <div className='bg-[#f8f0f6] p-[50px] md:p-[75px] lg:p-[95px]'> <h3 className='category-section'>Shop Buy Now</h3>
 
    <Swiper 
   className='w-full px-2 '
   slidesPerView={5}
-  spaceBetween={30}
-  autoplay={{ delay: 3500 }}
+  spaceBetween={10}
+  autoplay={{ delay: 1500 }}
   loop={true}
   modules={[Autoplay]}
   breakpoints={{
     0: { slidesPerView: 1 },
-    768: { slidesPerView: 2 }, 
+    768: { slidesPerView: 2}, 
     1024: { slidesPerView: 3 }, 
   }}
 >

@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 
 const Clientprop = (props) => {
   return (
-    <div className='w-[250px]  p-6 bg-white rounded-[6px]'>
+    <div className='w-[250px]  p-6 bg-green-100 rounded-[6px]'>
             <div className=' h-[190px] '>
             
                

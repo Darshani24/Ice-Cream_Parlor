@@ -12,7 +12,7 @@ import Clientprop from './Clientprop';
 
 const Client = () => {
   return (
-     <div className=' bg-linear-to-br from-[#fcfcfc] to-[#1c4e41] via-[#bfe0c5] py-10 p-[60px] md:p-[75px] lg:p-[90px]'>
+     <div className=' bg-green-50 py-10 p-[60px] md:p-[75px] lg:p-[90px]'>
      <h3 className='category-section mt-2'>Happy Clients!</h3>
 
   <Swiper

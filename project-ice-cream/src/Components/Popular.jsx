@@ -20,14 +20,14 @@ import Popswiperslide from './Popswiperslide';
 
 const Popular = () => {
   return (
-   <div className='bg-popularbg p-[30px] md:p-[45px] lg:p-[60px]'> 
-      <h3 className='category-section '>Popular Scoop Flavour</h3>
+   <div className=' bg-[#e7eceb] p-[50px] md:p-[75px] lg:p-[95px]'> 
+      <h3 className='category-section '>Popular Scoop Flavour  </h3>
    
      <Swiper 
       className='w-full px-2 '
       slidesPerView={5}
-      spaceBetween={30}
-      autoplay={{ delay: 3500 }}
+      spaceBetween={40}
+      autoplay={{ delay: 1500 }}
       loop={true}
       modules={[Autoplay]}
       breakpoints={{

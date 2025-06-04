@@ -10,10 +10,10 @@ function Nav() {
   };
 
   return (
-    <div className='flex items-center justify-between px-6 py-4 relative'>
+    <div className='flex items-center justify-between px-6 py-6 relative'>
       
       <div className='mr-4'>
-        <span className='text-xl text-red-700 font-bold cursor-pointer'>ICEPARLOR</span>
+        <span className='text-xl text-green-950 font-bold cursor-pointer'>ICEPARLOR</span>
       </div>
 
      
@@ -21,7 +21,7 @@ function Nav() {
         ref={menu}
         className='Nav-Link absolute top-[100%] left-[-100%]
         md:static  md:flex  gap-y-4 md:gap-x-10 items-center md:flex-row flex-col
-         bg-red-50 lg:bg-transparent md:w-auto w-[200px] p-4 md:p-0 '
+          lg:bg-transparent md:w-auto w-[200px] p-4 md:p-0 bg-green-200 sm:bg-none'
       >
         <Header name="Home" url="#Home" />
         <Header name="Category" url="#Category" />
@@ -33,7 +33,7 @@ function Nav() {
 
     
       <div className='flex items-center space-x-4'>
-        <button className='btn'>Shop Now</button>
+        <button className='btn'>Contact Us</button>
         <i className='ri-menu-3-line icon-btn md:hidden' onClick={menuhandler}></i>
       </div>
     </div>
